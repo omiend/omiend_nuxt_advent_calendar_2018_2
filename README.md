@@ -1,0 +1,23 @@
+# omiend_nuxt_advent_calendar_2018_2_day_one
+
+> My glorious Nuxt.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn run dev
+
+# build for production and launch server
+$ yarn run build
+$ yarn start
+
+# generate static project
+$ yarn run generate
+```
+
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+# omiend_nuxt_advent_calendar_2018_2_day_one
