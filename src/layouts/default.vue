@@ -9,7 +9,7 @@ html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 1rem;
   color: #35495e;
   letter-spacing: 1px;
   word-spacing: 1px;
