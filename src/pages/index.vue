@@ -10,7 +10,7 @@
 <script>
 export default {
   mounted () {
-    this.$store.commit('SET_TITLE', "top - mounted")
+    this.$store.commit('SET_TITLE', { title: "top - mounted" })
   }
 }
 </script>
