@@ -4,7 +4,6 @@
       <nuxt-link to="/about">to about</nuxt-link>
       <h1 class="title">{{title}}</h1>
       <p>mounted_time : {{mounted_time}}</p>
-      <p>async_data_time : {{async_data_time}}</p>
     </div>
   </section>
 </template>
@@ -14,8 +13,7 @@ export default {
   data () {
     return {
       title: "default from data()",
-      mounted_time: "default from data()",
-      async_data_time: "default from data()"
+      mounted_time: "default from data()"
     }
   },
   mounted () {
@@ -24,17 +22,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  display: block;
-}
-</style>

@@ -15,7 +15,7 @@ export default {
     return {
       title: "default from data()",
       mounted_time: "default from data()",
-      async_data_time: `default from data() #{new Date()}`
+      async_data_time: "default from data()"
     }
   },
   mounted () {
@@ -29,25 +29,10 @@ export default {
           title: "title from asyncData",
           async_data_time: new Date()
         })
-      }, 300);
+      }, 5000);
     }).then((res) => {
-      console.log(res)
       return res
     })
   }
 }
 </script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  display: block;
-}
-</style>
