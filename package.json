@@ -5,7 +5,7 @@
   "author": "omiend",
   "private": true,
   "scripts": {
-    "dev": "nuxt --port 3001",
+    "dev": "nuxt --port 3002",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.3.4"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
