@@ -12,6 +12,7 @@
         <ASection/>
         <BSection/>
         <CSection/>
+        <nuxt-link to="/api">api</nuxt-link>
       </div>
     </section>
     <TheFooter/>
